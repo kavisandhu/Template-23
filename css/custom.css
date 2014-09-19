@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,400italic,600italic,700,700italic,800,800italic);
+@import url(http://fonts.googleapis.com/css?family=Oswald:700,400,300);
+*{
+	margin:0px; 
+	padding:0px;
+}
+html, body{height:100%; font-family: 'Open Sans', sans-serif;}
+
+header{margin:0; padding:30px 0 20px; background:url(../images/header_bg.png) repeat-x top;}
+footer{margin:0; padding:30px 0 20px; background:url(../images/footer_bg.png) repeat-x top; color:#ffffff; font-size:13px; font-weight:400;}
+footer a{ color:#ffffff;}
+footer p {margin: 12px 0 0;}
+
+.noty_btn {
+    background: url("../images/noty_bg.png") repeat-x scroll center top rgba(0, 0, 0, 0);
+    border-radius: 0 10px 10px 0;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 13px 22px;
+}
+.email_block{margin:0 auto;width: 84%;}
+
+.mid_bg{ background:#dee0eb url(../images/body_bg.png) repeat-x top; padding-top:40px;}
+.mid_bg h1{ font-size:42px; font-weight:700; color:#313030}
+.mid_bg h3{ font-size:24px; font-weight:400; color:#ffffff}
+.mid_bg h2{ font-size:30px; font-weight:400;margin-top:5px; color:#454444;margin-bottom: 4px;}
+.mid_bg .ehead{ font-size:18px; font-weight:400;color:#3e3d3d;}
+
+.outer_block{width:100%; max-width:504px; margin:0 auto;}
+.timer{ background:#111e6a;width:100%; border-radius:5px; color:#fff;padding: 15px 54px; margin:50px 0 -61px; position:relative; z-index:1;}
+.social_icon{ margin-top:50px;}
+.timer p{ font-size:13px;}
+.timer ul{ margin:0;padding:0;list-style-type:none;}
+.timer ul li{ margin:0;padding:0;list-style-type:none;display:inline-block; text-align:center;}
+.timer ul li p {
+    background-color: rgb(222, 223, 229);
+    border-radius: 8px;
+    color: rgb(46, 47, 49);
+    font-family: 'Oswald',sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 39px;
+    margin: 0 5px;
+    width: 57px;
+}
+.timer ul li span {
+  
+    font-size: 14px;
+    font-weight: 400;
+	font-style:italic;
+  
+}
+@media only screen and (max-width:320px){
+.mid_bg h1 {
+    color: rgb(49, 48, 48);
+    font-size: 26px;
+    font-weight: 700;
+}
+.mid_bg h2 {
+      font-size: 24px;
+  }	
+  .noty_btn {
+    font-size: 12px;
+    padding: 13px 8px;
+  }
+  .form-control {
+    font-size: 11px;
+    height: 45px;
+    line-height: 1.42857;
+    padding: 8px 12px;
+   }
+   footer p {
+    font-size: 12px;
+   }
+   footer a {
+   font-size: 12px;
+}
+}
