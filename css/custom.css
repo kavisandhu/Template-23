@@ -27,8 +27,8 @@ footer p {margin: 12px 0 0;}
 .mid_bg h2{ font-size:30px; font-weight:400;margin-top:5px; color:#454444;margin-bottom: 4px;}
 .mid_bg .ehead{ font-size:18px; font-weight:400;color:#3e3d3d;}
 
-.outer_block{width:100%; max-width:504px; margin:0 auto;}
-.timer{ background:#111e6a;width:100%; border-radius:5px; color:#fff;padding: 15px 54px; margin:50px 0 -61px; position:relative; z-index:1;}
+.outer_block{width:100%; max-width:510px; margin:0 auto;}
+.timer{ background:#111e6a;width:100%; border-radius:5px; color:#fff;padding: 15px 42px; margin:50px 0 -61px; position:relative; z-index:1;}
 .social_icon{ margin-top:50px;}
 .timer p{ font-size:13px;}
 .timer ul{ margin:0;padding:0;list-style-type:none;}
